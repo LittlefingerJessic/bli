@@ -11,6 +11,10 @@ SPIDER_MODULES = ['bli.spiders']
 NEWSPIDER_MODULE = 'bli.spiders'
 MONGO_URI='mongodb://localhost:27017'
 MONGO_DB='zhazi'
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+REDIS_URL = 'redis://root:@10081.com@172.16.141.128:6379'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'bli (+http://www.yourdomain.com)'
 
@@ -63,6 +67,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'bli.pipelines.MongoPipeline': 300,
+    'scrapy_redis.pipelines.RedisPipeline': 301
 }
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
