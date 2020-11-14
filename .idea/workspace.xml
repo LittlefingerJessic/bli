@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee41bfc2-62de-437e-aae8-91a960c211d8" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bli/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bli/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,8 @@
       <workItem from="1605331090248" duration="1497000" />
       <workItem from="1605337112508" duration="5000" />
       <workItem from="1605338855251" duration="1059000" />
-      <workItem from="1605350816041" duration="1202000" />
+      <workItem from="1605350816041" duration="1850000" />
+      <workItem from="1605361716482" duration="1136000" />
     </task>
     <servers />
   </component>
